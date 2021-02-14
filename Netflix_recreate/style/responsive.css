@@ -1,0 +1,46 @@
+@media screen and (max-width: 800px){
+    .filme-principal header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .filme-principal main .container{
+        height: 100%;
+    }
+
+    .título-filme{
+        font-size:24px;
+    }
+
+    .sinopse{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .button{
+        margin-top:8px;
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .filme-principal{
+        background-position: center;
+    }
+
+    .popup .info .info1{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .sinopse{
+        width: 60%;
+    }
+    .filme-principal{
+        height: 600px;
+    }
+
+    .popup .content {
+        width: 60%;
+    }
+}

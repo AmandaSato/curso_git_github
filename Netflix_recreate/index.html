@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css" >
+
+    <!--responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl-style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl-style/owl.theme.default.min.css">
+
+    <title>NETFLIX COPY</title>
+</head>
+
+<body>
+
+    <div class="popup" id="popup-1">
+        <div class="content">   
+            <div class="info-img">
+                    <div class="close-btn" onclick="Popup()">&times;</div>
+            </div>
+            <div class="info">
+                <h1>THE WITCHER</h1>
+                <div class="info1">
+                    <p>2019 </p>
+                    <p>1 Temporada </p>
+                    <p>+18</p>
+                </div>
+                <div class="info2">
+                    <p class="inf"> Gênero: </p>
+                    <p> Fantasia, Drama, Adaptação de Livros </p>
+                </div>
+            
+            </div>           
+        </div>
+      </div>
+
+    <div class="filme-principal">
+
+        <header>
+            <div class='container'>
+                <h2 class='logo'></h2> 
+                <nav>
+                    <a href="a">Início</a>
+                    <a href="a">Séries</a>
+                    <a href="a">Filmes</a>
+                    <a href="a">Animes</a>
+                    <a href="a">Documentários</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <main>
+        <div class="container">
+            <h3 class="título-filme">THE WITCHER</h3>
+            <p class="sinopse"> O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.</p>
+        </div>
+
+        <!-- o segundo "filho" da class="filme-principal" já não vai herdar as propriedades dessa classe, diferente do primeiro filho. A class="button" volta automaticamente para o padrão display Block -->
+        <div class="buttons">
+            <a target="_blank" href="https://www.youtube.com/watch?v=ndl1W4ltcmg">
+                <button role="button" class="button">
+                    <i class="fas fa-play"></i>
+                    ASSISTIR AGORA
+                </button>
+            </a>           
+            <button onclick="Popup()" role="button" class="button">
+                <i class="fas fa-info-circle"></i>
+                MAIS INFORMAÇÕES
+            </button>
+        </div>
+        </main>
+
+    </div>
+  
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/capa1.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa10.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa6.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa5.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa4.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/capa2.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript sempre no final da página, para evitar erros-->
+    <script src="https://kit.fontawesome.com/e959afaac5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
