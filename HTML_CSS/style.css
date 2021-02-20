@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to top right,#b3f7ff,#46518f);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#title, .sub_title, .post_title {
+    color: #3d3f40;
+    font-family: "Trebuchet MS" ;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.post{
+    background-color: antiquewhite;
+
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 3%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin:0;
+    margin-bottom: 40px;
+    margin-left: 25%;
+
+    width: 50%;
+}
+
+.post_img{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.post_content{
+    font-family: Georgia;
+    color: #3d3f40;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.hiperlink{
+    color: #3d3f40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista{
+    list-style-type: none;
+}
